@@ -14,13 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: white;
 }
 
@@ -32,7 +32,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,
+body {
+  background: rgb(23,23,23);
+  background: linear-gradient(315deg, #8d918d 0%, #ffffff 50%, #8d918d 100%);
+  background-image: url('https://getwallpapers.com/wallpaper/full/a/2/4/888290-popular-cool-black-and-white-background-1920x1080-ipad.jpg');
+  /* https://getwallpapers.com/wallpaper/full/2/7/3/678718.jpg */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
 }
